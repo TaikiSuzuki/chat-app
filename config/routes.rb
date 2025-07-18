@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   root to: "messages#index"
 
+devise_for :users
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
